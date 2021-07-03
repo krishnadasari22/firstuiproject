@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Company Website</title>
+      <style>
+            body{
+                  font-family:"comic sans-serif";
+                  margin: 0;
+            }
+            header,footer,section {
+                  background: white url(../images/img.webp);
+                  background-size: cover;
+                  padding: 10px;
+                  color: white;
+                  text-align: center;
+            }
+            footer{
+                  line-height: 12px;
+                  font-family: sans-serif;
+            }
+             /*---------Main Navigation---------*/
+             nav {
+                  background-color: #182020;
+                  overflow: hidden;
+             }
+             nav ul {
+                  list-style-type: none;
+                  padding: 0;
+                  margin: 0;
+             }
+             nav ul  li{
+                  float: left;
+             }
+             nav ul li a{
+                  text-decoration: none;
+                  color: white;
+                  padding: 10px 25px;
+                  display: inline-block;
+                  font-size: 18px;
+             }
+             nav ul li a:hover{
+                  background-color: #636a46;
+             }
+             nav ul li a.active{
+                  background-color: seagreen;
+             }
+             /*--------Sidebar Section------*/
+             aside{
+                  float: left;
+                  width: 200px;
+                  text-align: center;
+                  height: 300px;
+                  overflow-y: scroll;
+             }
+             aside ul {
+                  list-style-type: none;
+                  padding: 0;
+                  margin: 0;
+             }
+             aside ul li a{
+                  text-decoration: none;
+                  color: blue;
+                  padding: 15px 25px;
+                  display: block;
+             }
+             aside ul li a:hover {
+                  background-color: #636a46;
+                  color: black;
+             }
+             /*---------Main Content Section-------*/
+             section{
+                  color: darkred;
+                  margin-left: 200px;
+                  border-left: 2px solid gray;
+                  padding: 10px;
+                  text-align: left;
+             }
+             details{
+                  background-color: yellow;
+                  margin: 5px;
+                  padding: 10px;
+                  color: black;
+                  border-radius: 50px;
+             }
+             article{
+                  background-color: limegreen;
+                  color: darkred;
+                  padding: 10px;
+                  border-radius: 50px;
+
+             }
+             section details article{
+               font-family: sans-serif;
+             }
+      </style>
+</head>
+<body>
+      <!-----Main Header---->
+      <header>
+      	<h1>UI Technologies</h1>
+      	<p>The Smart Way Of Learning</p>
+      </header>
+      <!----Main Navigation--->
+      <nav>
+      	<ul>
+      		<li>
+      			<a href="#" class="active">Home</a>
+      		</li>
+      		<li>
+      			<a href="#">Contact Us</a>
+      		</li>
+      		<li>
+      			<a href="#">Careers</a>
+      		</li>
+      		<li>
+      			<a href="#">Courses</a>
+      		</li>
+      	</ul>
+      </nav>
+      <!----- Sidebar Section--->
+      <aside>
+      	<ul>
+      		<li>
+      			  <a href="#">HTML</a>
+      		</li>
+      		<li>
+      			  <a href="#">CSS</a>
+      		</li>
+      		<li>
+      			  <a href="#">Bootstrap</a>
+      		</li>
+      		<li>
+      			  <a href="#">Java Script</a>
+      		</li>
+      		<li>
+      			  <a href="#">JQuery</a>
+      		</li>
+      		<li>
+      			  <a href="#">AJax</a>
+      		</li>
+      		<li>
+      			  <a href="#">Angular JS</a>
+      			  <li>
+      			  <a href="#">Type Script</a>
+      		</li>
+      		</li>
+      	</ul>
+      </aside>
+
+      <!----- Main Content---->
+      <section>
+      	<!------ Html------>
+      		<details>
+      			<summary>HTML</summary>
+      			<article>
+      				<h3>HTMl</h3>
+      				<p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+      				<p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+      			</article>
+      		</details>
+      		<!------ CSS------>
+      		<details>
+      			<summary>CSS</summary>
+      			<article>
+      				<h3>CSS</h3>
+      				<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</p>
+      				<p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+      			</article>
+      		</details>
+      		<!------ Java Script------>
+      		<details>
+      			<summary>Java Script</summary>
+      			<article>
+      				<h3>Java Script</h3>
+      				<p>JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+      				<p>Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.Over 97% of websites use it client-side for web page behavior,[11] often incorporating third-party libraries.[12] All major web browsers have a dedicated JavaScript engine to execute the code on the user's device.</p>
+      			</article>
+      		</details>
+      		<!------ Ajax------>
+      		<details>
+      			<summary>AJax</summary>
+      			<article>
+      				<h3>Ajax</h3>
+      				<p>Ajax (also AJAX /ˈeɪdʒæks/; short for "Asynchronous JavaScript and XML")[1][2] is a set of web development techniques using many web technologies on the client-side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page</p>
+      				<p>Ajax is not a single technology, but rather a group of technologies. HTML and CSS can be used in combination to mark up and style information. The webpage can then be modified by JavaScript to dynamically display—and allow the user to interact with—the new information. The built-in XMLHttpRequest object, or since 2017 the new fetch function within JavaScript, is commonly used to execute Ajax on webpages, allowing websites to load content onto the screen without refreshing the page. Ajax is not a new technology, or a different language, just existing technologies used in new ways</p>
+      			</article>
+      		</details>
+      		<!------ Bootstrap------>
+      		<details>
+      			<summary>Bootstrap</summary>
+      			<article>
+      				<h3>Bootstrap</h3>
+      				<p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+      				<p>Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework to encourage consistency across internal tools. Before Bootstrap, various libraries were used for interface development, which led to inconsistencies and a high maintenance burden. According to Twitter developer Mark Otto:
+
+</p>
+      			</article>
+      		</details>
+      		<!------ Angular JS------>
+      		<details>
+      			<summary>AngularJS</summary>
+      			<article>
+      				<h3>Angular JS</h3>
+      				<p>AngularJS is a JavaScript-based open-source front-end web framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. </p>
+      				<p>The AngularJS framework is on Long Term Support ("LTS") until December 31, 2021.[3][4] After that date Google will no longer update AngularJS to fix security, browser compatibility, or jQuery issues.[5][4] The Angular team recommends upgrading to Angular (v2+) as the best path forward, but they also provided some other options</p>
+      			</article>
+      		</details>
+      		<!------ Type Script------>
+      		<details>
+      			<summary>Type Script</summary>
+      			<article>
+      				<h3>Type Script</h3>
+      				<p>TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript</p>
+      				<p>TypeScript supports definition files that can contain type information of existing JavaScript libraries, much like C++ header files can describe the structure of existing object files. This enables other programs to use the values defined in the files as if they were statically typed TypeScript entities. There are third-party header files for popular libraries such as jQuery, MongoDB, and D3.js. TypeScript headers for the Node.js basic modules are also available, allowing development of Node.js programs within TypeSc</p>
+      			</article>
+      		</details>
+      </section>
+      <!---- Main Footer---->
+      <footer>
+            <h2>Copyright &copy:2021, UI Technologies</h2>
+            <p>All Rights Reserved</p>
+            <small>Developed and Maintained by Krishna Dasari</small>
+      </footer>
+</body>
+</html>
